@@ -68,3 +68,6 @@ required arguments:
   -q QUESTIONTYPE, --questionType QUESTIONTYPE    Question Type: nonDiagramQuestions or diagramQuestions
   -m MODELTYPE, --modelType MODELTYPE             Model Type: Text, Diagram, Cross or CrossVecsi
 ```
+
+## Qualitative images:
+In the look_read_and_enrich/misc/qualitative/ folder you can find the images of our qualitative analysis.
