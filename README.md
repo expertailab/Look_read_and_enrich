@@ -32,7 +32,7 @@ python download.py
 
 **2. Use the different python scripts to execute the experiments.**
 
-**Figure-Caption Correspondance Experiments**: We execute a correspondance and a bidirectional retrieval experiments between the scientific figures and their captions as they appear together in a scientific publication. The corpora used in this experiment can be Scigraph or Semantic Scholar. Also, it is possible to use Coco and Flickr30k in this experiments. To do so, download their images and resize them to 224x22 in directories:"look_read_and_enrich/images/coco/" and "look_read_and_enrich/images/flickr30k/".
+**Figure-Caption Correspondance Experiments**: We execute a correspondance and a bidirectional retrieval experiments between the scientific figures and their captions as they appear together in a scientific publication. The corpora used in this experiment can be Scigraph or Semantic Scholar. Also, it is possible to use [Coco](http://cocodataset.org/#download)(2014)  and [Flickr30k](http://shannon.cs.illinois.edu/DenotationGraph/) in this experiments. To do so, download their images, resize them to 224x224 resolution and put it all together in directories: "look_read_and_enrich/images/coco/" and "look_read_and_enrich/images/flickr30k/".
 
 ```
 cross_experiments.py [-h] -c CORPUS [-t]
