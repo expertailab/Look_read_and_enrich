@@ -10,7 +10,14 @@ FCC trains visual and language networks without additional supervision other tha
 This repository also provides code and data to leverage the FCC visual and language features in transfer learning tasks involving scientific text and figures, namely classification and multi-modal machine comprehension. Upon execution, our experiments show improvement or results on par with supervised baselines and ad-hoc approaches.
 
 ## Dependencies:
+To use this code you will need:
 
+* Python 3.7
+* Keras 2.2.4
+* Scikit-learn 0.20.1
+* Numpy 1.16.1
+* Pillow 5.4.1
+* Tqdm 4.28.1
 
 ## How to run the experiments:
 
@@ -61,6 +68,3 @@ required arguments:
 
 ## Requirements:
 ~19GB free space disk
-
-## Results:
-
