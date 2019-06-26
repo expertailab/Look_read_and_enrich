@@ -70,4 +70,4 @@ required arguments:
 ```
 
 ## Qualitative images:
-In the look_read_and_enrich/misc/qualitative/ folder you can find the images of our qualitative analysis.
+In the **_look_read_and_enrich/misc/qualitative/_** folder you can find the images of our qualitative analysis.
