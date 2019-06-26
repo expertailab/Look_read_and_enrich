@@ -19,7 +19,7 @@ python download.py
 
 **2. Use the different notebooks to execute the experiments.**
 
-**Figure-Caption Correspondance Experiments**: In this notebook we execute a correspondance and a bidirectional retrieval experiments between the scientific figures and their captions as they appear together in a scientific publication. The corpora used in this experiment can be Scigraph or Semantic Scholar. Also, it is possible to use Coco and Flickr30k in this experiments. To do so, download their images and resize them to 224x22 in directories:"look_read_and_enrich/images/coco/" and "look_read_and_enrich/images/flickr30k/".
+**Figure-Caption Correspondance Experiments**: We execute a correspondance and a bidirectional retrieval experiments between the scientific figures and their captions as they appear together in a scientific publication. The corpora used in this experiment can be Scigraph or Semantic Scholar. Also, it is possible to use Coco and Flickr30k in this experiments. To do so, download their images and resize them to 224x22 in directories:"look_read_and_enrich/images/coco/" and "look_read_and_enrich/images/flickr30k/".
 
 ```
 cross_experiments.py [-h] -c CORPUS [-t]
@@ -32,7 +32,7 @@ required arguments:
   -c CORPUS, --corpus CORPUS    Selected Corpus: flickr30k, coco, scigraph or semscholar
 ```
 
-**Categorization Experiments** (crossmodal_experiments.py): In this notebook we categorize the figures and captions in five different categories. To do so, we use the weights generated in the CrossModal experiment for the captions and with the introduction of KG (Vecsigrafo) for the figures.
+**Categorization Experiments**: We categorize the figures and captions in five different categories. To do so, we use the weights generated in the CrossModal experiment for the captions and with the introduction of KG (Vecsigrafo) for the figures.
 
 ```
 cat_experiments.py [-h] [-w WEIGHTS] [-t]
@@ -43,7 +43,7 @@ optional arguments:
   -t, --trainable                 Trainable Model
 ```
 
-**TQA Experiments**: In this notebook we reproduce the baseline for the TQA challenge, as we replace the VGG-19 with the visual network of the LVC (Language-Visual Correspondance) model to extract the features of the figures within the context and questions.
+**TQA Experiments**: We reproduce the baseline for the TQA challenge, as we replace the VGG-19 with the visual network of the LVC (Language-Visual Correspondance) model to extract the features of the figures within the context and questions.
 
 ```
 tqa_experiments.py [-h] -q QUESTIONTYPE -m MODELTYPE
