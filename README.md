@@ -20,6 +20,7 @@ To use this code you will need:
 * Numpy 1.16.1
 * Pillow 5.4.1
 * Tqdm 4.28.1
+* ~19GB free space disk
 
 ## How to run the experiments:
 
@@ -67,6 +68,3 @@ required arguments:
   -q QUESTIONTYPE, --questionType QUESTIONTYPE    Question Type: nonDiagramQuestions or diagramQuestions
   -m MODELTYPE, --modelType MODELTYPE             Model Type: Text, Diagram, Cross or CrossVecsi
 ```
-
-## Requirements:
-~19GB free space disk
