@@ -222,7 +222,7 @@ class CrossExperiment:
                 tuple2.append(np.array([1,0]))
                 tuples_to_shuffle.append(tuple2)
         random.shuffle(tuples_to_shuffle)
-        bx = [[][]]
+        bx = [[],[]]
         y = []
         for i in tuples_to_shuffle:
             for k in range(len(i[0])):
