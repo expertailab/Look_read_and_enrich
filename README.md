@@ -32,7 +32,7 @@ required arguments:
   -c CORPUS, --corpus CORPUS    Selected Corpus: flickr30k, coco, scigraph or semscholar
 ```
 
-**Categorization-Experiments** (crossmodal_experiments.py): In this notebook we categorize the figures and captions in five different categories. To do so, we use the weights generated in the CrossModal experiment for the captions and with the introduction of KG (Vecsigrafo) for the figures.
+**Categorization Experiments** (crossmodal_experiments.py): In this notebook we categorize the figures and captions in five different categories. To do so, we use the weights generated in the CrossModal experiment for the captions and with the introduction of KG (Vecsigrafo) for the figures.
 
 ```
 cat_experiments.py [-h] [-w WEIGHTS] [-t]
@@ -43,7 +43,7 @@ optional arguments:
   -t, --trainable                 Trainable Model
 ```
 
-**TQA-Experiments**: In this notebook we reproduce the baseline for the TQA challenge, as we replace the VGG-19 with the visual network of the LVC (Language-Visual Correspondance) model to extract the features of the figures within the context and questions.
+**TQA Experiments**: In this notebook we reproduce the baseline for the TQA challenge, as we replace the VGG-19 with the visual network of the LVC (Language-Visual Correspondance) model to extract the features of the figures within the context and questions.
 
 ```
 tqa_experiments.py [-h] -q QUESTIONTYPE -m MODELTYPE
