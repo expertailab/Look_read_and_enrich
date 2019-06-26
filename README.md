@@ -9,6 +9,9 @@ FCC trains visual and language networks without additional supervision other tha
 
 This repository also provides code and data to leverage the FCC visual and language features in transfer learning tasks involving scientific text and figures, namely classification and multi-modal machine comprehension. Upon execution, our experiments show improvement or results on par with supervised baselines and ad-hoc approaches.
 
+## Dependencies:
+
+
 ## How to run the experiments:
 
 **1. Execute the script download.py with the materials you want to download:**
