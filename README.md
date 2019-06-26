@@ -14,7 +14,7 @@ This repository also provides code and data to leverage the FCC visual and langu
 ## Dependencies:
 To use this code you will need:
 
-* Python 3.7
+* Python 3.6.3
 * Keras 2.2.4
 * Scikit-learn 0.20.1
 * Numpy 1.16.1
