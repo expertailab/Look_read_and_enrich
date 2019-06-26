@@ -17,7 +17,6 @@ _**Disclaimer:** This repo does not offer embeddings extracted from proprietary 
 
 ```
 python download.py [options]
-
 ```
 
 **2. Use the different notebooks to execute the experiments.**
