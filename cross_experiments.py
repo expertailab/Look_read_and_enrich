@@ -10,7 +10,7 @@ def main(argv):
 
     parser = argparse.ArgumentParser(description='')
     required = parser.add_argument_group('required arguments')
-    required.add_argument('-c', '--corpus', help='Selected Corpus', required=True)
+    required.add_argument('-c', '--corpus', help='Selected Corpus: flickr30k, coco, scigraph or semscholar', required=True)
     parser.add_argument('-t', '--trainable', help='Trainable Vision Model', action='store_true')
     args = parser.parse_args()
 

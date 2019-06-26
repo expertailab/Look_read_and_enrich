@@ -13,8 +13,8 @@ def main(argv):
     
     parser = argparse.ArgumentParser(description='')
     required = parser.add_argument_group('required arguments')
-    required.add_argument('-q', '--questionType', help='Question Type', required=True)
-    required.add_argument('-m', '--modelType', help='Model Type', required=True)
+    required.add_argument('-q', '--questionType', help='Question Type: nonDiagramQuestions or diagramQuestions', required=True)
+    required.add_argument('-m', '--modelType', help='Model Type: Text, Diagram, Cross or CrossVecsi', required=True)
     args = parser.parse_args()
 
     questionType = args.questionType

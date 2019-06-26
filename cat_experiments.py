@@ -8,7 +8,7 @@ def main(argv):
     weights = None
     
     parser = argparse.ArgumentParser(description='')
-    parser.add_argument('-w', '--weights', help='Weights')
+    parser.add_argument('-w', '--weights', help='Weights: FCC6 or FCC7')
     parser.add_argument('-t', '--trainable', help='Trainable Model', action='store_true')
     args = parser.parse_args()
 
