@@ -19,7 +19,7 @@ python download.py
 
 **2. Use the different notebooks to execute the experiments.**
 
-**Figure-Caption Correspondance Experiments**: In this notebook we execute a correspondance and a bidirectional retrieval experiments between the scientific figures and their captions as they appear together in a scientific publication. The corpora used in this experiment can be Scigraph or Semantic Scholar. Also, it is possible to use Coco and Flickr30k downloading their images and resized them to 224x224 into the paths "look_read_and_enrich/images/coco" and "look_read_and_enrich/images/flickr30k".
+**Figure-Caption Correspondance Experiments**: In this notebook we execute a correspondance and a bidirectional retrieval experiments between the scientific figures and their captions as they appear together in a scientific publication. The corpora used in this experiment can be Scigraph or Semantic Scholar. Also, it is possible to use Coco and Flickr30k in this experiments. To do so, download their images and resize them to 224x22 in directories:"look_read_and_enrich/images/coco/" and "look_read_and_enrich/images/flickr30k/".
 
 ```
 cross_experiments.py [-h] -c CORPUS [-t]
@@ -57,7 +57,7 @@ required arguments:
 ```
 
 ## Requirements:
-~18.5GB free space disk
+~19GB free space disk
 
 ## Results:
 
