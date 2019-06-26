@@ -16,16 +16,47 @@ _**Disclaimer:** This repo does not offer embeddings extracted from proprietary 
 **1. Execute the script download.py with the materials you want to download:**
 
 ```
-python download.py [options]
+python download.py
 ```
 
 **2. Use the different notebooks to execute the experiments.**
 
 **CrossModal-Experiments**: In this notebook we execute a correspondance and a bidirectional retrieval experiments between the scientific figures and their captions as they appear together in a scientific publication. The corpora used in this experiment can be Scigraph or Semantic Scholar. Also, it is possible to use Coco and Flickr30k downloading their images and resized them to 224x224 into the paths "look_read_and_enrich/images/coco" and "look_read_and_enrich/images/flickr30k".
 
-**Categorization-Experiments**: In this notebook we categorize the figures and captions in five different categories. To do so, we use the weights generated in the CrossModal experiment for the captions and with the introduction of KG (Vecsigrafo) for the figures.
+```
+cross_experiments.py [-h] -c CORPUS [-t]
+
+optional arguments:
+  -h, --help                    show this help message and exit
+  -t, --trainable               Trainable Vision Model
+
+required arguments:
+  -c CORPUS, --corpus CORPUS    Selected Corpus
+```
+
+**Categorization-Experiments** (crossmodal_experiments.py): In this notebook we categorize the figures and captions in five different categories. To do so, we use the weights generated in the CrossModal experiment for the captions and with the introduction of KG (Vecsigrafo) for the figures.
+
+```
+cat_experiments.py [-h] [-w WEIGHTS] [-t]
+
+optional arguments:
+  -h, --help                      show this help message and exit
+  -w WEIGHTS, --weights WEIGHTS   Weights
+  -t, --trainable                 Trainable Model
+```
 
 **TQA-Experiments**: In this notebook we reproduce the baseline for the TQA challenge, as we replace the VGG-19 with the visual network of the LVC (Language-Visual Correspondance) model to extract the features of the figures within the context and questions.
+
+```
+tqa_experiments.py [-h] -q QUESTIONTYPE -m MODELTYPE
+
+optional arguments:
+  -h, --help                                      show this help message and exit
+
+required arguments:
+  -q QUESTIONTYPE, --questionType QUESTIONTYPE    Question Type
+  -m MODELTYPE, --modelType MODELTYPE             Model Type
+```
 
 ## Requirements:
 ~18.5GB free space disk
