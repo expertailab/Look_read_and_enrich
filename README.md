@@ -31,7 +31,7 @@ python download.py
 
 **2. Use the different python scripts to execute the experiments.**
 
-**Figure-Caption Correspondance Experiments**: We execute a correspondance and a bidirectional retrieval experiments between the scientific figures and their captions as they appear together in a scientific publication. The corpora used in this experiment can be Scigraph or Semantic Scholar. Also, it is possible to use [Coco](http://cocodataset.org/#download)(2014)  and [Flickr30k](http://shannon.cs.illinois.edu/DenotationGraph/) in this experiments. To do so, download their images, resize them to 224x224 resolution and put it all together in directories: "look_read_and_enrich/images/coco/" and "look_read_and_enrich/images/flickr30k/".
+**Figure-Caption Correspondance Experiments**: We execute correspondence and bidirectional retrieval experiments between the scientific figures and their captions. The corpora used are Scigraph or Semantic Scholar. Also, for the bidirectional retrieval task we support [Coco](http://cocodataset.org/#download)(2014)  and [Flickr30k](http://shannon.cs.illinois.edu/DenotationGraph/). To use Flickr30k/Coco, download the images from their repositories, resize them to 224x224 resolution, and leave the resulting images in folders "look_read_and_enrich/images/coco/" and "look_read_and_enrich/images/flickr30k/".
 
 ```
 cross_experiments.py [-h] -c CORPUS [-t]
@@ -44,7 +44,7 @@ required arguments:
   -c CORPUS, --corpus CORPUS    Selected Corpus: flickr30k, coco, scigraph or semscholar
 ```
 
-**Categorization Experiments**: We categorize the figures and captions in five different categories. To do so, we use the weights generated in the CrossModal experiment for the captions and with the introduction of KG (Vecsigrafo) for the figures.
+**Categorization Experiments**: We categorize the figures and captions over the SciGraph categories. To do so, we use the visual features generated in the FCC experiment (FCC6: plain FCC train on SemScholar, FCC7: includes semantic embeddings from Vecsigrafo).
 
 ```
 cat_experiments.py [-h] [-w WEIGHTS] [-t]
@@ -55,7 +55,7 @@ optional arguments:
   -t, --trainable                 Trainable Model
 ```
 
-**TQA Experiments**: We reproduce the baseline for the TQA challenge, as we replace the VGG-19 with the visual network of the LVC (Language-Visual Correspondance) model to extract the features of the figures within the context and questions.
+**TQA Experiments**: We reproduce the baselines for the TQA challenge and extend it with the FCC visual features and pre-trained semantic embeddings from Vecsigrafo. Question types include multiple choice non-diagram questions and multiple choice diagram questions. Model types include text only, diagram only, Cross (using the visual FCC features) and CrossVecsi (adding Vecsigrafo to represent the TQA words).
 
 ```
 tqa_experiments.py [-h] -q QUESTIONTYPE -m MODELTYPE
