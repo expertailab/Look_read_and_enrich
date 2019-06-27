@@ -44,7 +44,7 @@ required arguments:
   -c CORPUS, --corpus CORPUS    Selected Corpus: flickr30k, coco, scigraph or semscholar
 ```
 
-**Categorization Experiments**: We categorize the figures and captions over the SciGraph categories. To do so, we use the visual features generated in the FCC experiment (FCC6: plain FCC train on SemScholar, FCC7: includes semantic embeddings from Vecsigrafo).
+**Categorization Experiments**: We categorize the figures and captions over the SciGraph categories. To do so, we use the visual features generated in the FCC experiment (FCC6: plain FCC trained on SemScholar, FCC7: includes semantic embeddings from Vecsigrafo).
 
 ```
 cat_experiments.py [-h] [-w WEIGHTS] [-t]
