@@ -58,7 +58,6 @@ def main(argv):
         print("Iteration: "+ str(it))
         X_train,y_train,X_test,y_test = corpus.get_split_XY(train,test)
         tqamodel = TQAModel(dim, dout, rdout,modelType)
-        tqamodel.get_embeddings(corpus)
         model = tqamodel.generate_model(corpus)
 
         adam = optimizers.Adam(lr=first_lr)

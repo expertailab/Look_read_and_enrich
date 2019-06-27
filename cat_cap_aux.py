@@ -31,7 +31,7 @@ class CaptionCorpus:
             self.list_captions.extend(doc["captions"])
             self.categories.append(doc["category"])
     def process_corpus(self): 
-        with open("./saved/tokenizers/tokenizer-0-semscholar.pickle", 'rb') as handle:
+        with open("./saved/tokenizers/tokenizer-0-semscholar-FCC6.pickle", 'rb') as handle:
             tokenizer = pickle.load(handle)
         sequences = tokenizer.texts_to_sequences(self.list_captions)
         data_text = pad_sequences(sequences, maxlen=self.max_len, padding="post", truncating="post")     

@@ -93,7 +93,7 @@ class Corpus:
             vocab_size = len(word_index)+1
 
 
-            self.tokenizer.append(tokenizer)
+            self.tokenizers.append(tokenizer)
             self.word_indexes.append(word_index)
             self.vocab_sizes.append(vocab_size)
 
@@ -106,8 +106,8 @@ class Corpus:
                 self.X.append(feat_list)
         self.y = np.array(self.correct_answers)
     def get_split_XY(self,train,test):
-        X_train_out = self.X[train]
-        X_test_out = self.X[test]
+        X_train_out = [x[train] for x in self.X]
+        X_test_out = [x[test] for x in self.X]
         return X_train_out,self.y[train],X_test_out,self.y[test]
 
 def process_image(modelType,images):
@@ -229,7 +229,6 @@ class TQAModel:
         self.model = None
 
     def generate_model(self, corpus):
-        vecsi = self.vecsi
         dim = self.dim
         modelType = self.modelType
         dout = self.dout
