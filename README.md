@@ -88,5 +88,7 @@ Sample caption activation heatmaps. Red is high activation, blue is low.
 
 "The Aliev-Panfilov model with  α = 0.01, ɣ = 0.002, b = 0.15, c = 8, μ1 = 0.2, μ2 = 0.3. The phase portrait depicts trajectories for distinct initial values φ0 and r0 (filled circles) converging to a stable equilibrium point (top). Non-oscillatory normalized time plot of the non-dimensional action potential φ and the recovery variable r (bottom)."
 <img src="./qualitative_analysis/captions/caption_heatmap_1.png" width="2000">
+
+"Relative protein levels of ubiquitin-protein conjugates in M. quadriceps femoris of rats fed either a control diet (0 mg carnitine/ kg diet; Control) or a diet supplemented with 1250 mg carnitine/kg diet (Carnitine). (A) A representative immunoblot specific to ubiquitin is shown for three animals per group; immunoblots for the other animals revealed similar results. Reversible staining of nitrocellulose membranes with Ponceau S revealed equal loading of protein. (B) Bars represent data from densitometric analysis and represent means ±SD (n = 6/group); bars are expressed relative to the protein level of the control group (= 1.00). * indicates a significant difference to the control group (P < 0.05)."
 <img src="./qualitative_analysis/captions/caption_heatmap_2.png" width="2000">
 
