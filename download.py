@@ -26,6 +26,7 @@ def download_and_unzip(file,output_path):
 
 download_and_unzip("jsons.zip",".")
 download_and_unzip("saved.zip",".")
+os.mkdir("images")
 download_and_unzip("scigraph.zip","./images/")
 download_and_unzip("semscholar.zip","./images/")
 download_and_unzip("tqa.zip","./images/")

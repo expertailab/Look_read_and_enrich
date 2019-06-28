@@ -34,7 +34,7 @@ python download.py
 **Figure-Caption Correspondance Experiments**: We execute correspondence and bidirectional retrieval experiments between the scientific figures and their captions. The corpora used are Scigraph or Semantic Scholar. Also, for the bidirectional retrieval task we support [Coco](http://cocodataset.org/#download)(2014)  and [Flickr30k](http://shannon.cs.illinois.edu/DenotationGraph/). To use Flickr30k/Coco, download the images from their repositories, resize them to 224x224 resolution, and leave the resulting images in folders "look_read_and_enrich/images/coco/" and "look_read_and_enrich/images/flickr30k/".
 
 ```
-cross_experiments.py [-h] -c CORPUS [-t]
+fcc.py [-h] -c CORPUS [-t]
 
 optional arguments:
   -h, --help                    show this help message and exit
@@ -44,10 +44,10 @@ required arguments:
   -c CORPUS, --corpus CORPUS    Selected Corpus: flickr30k, coco, scigraph or semscholar
 ```
 
-**Categorization Experiments**: We categorize the figures and captions over the SciGraph categories. To do so, we use the visual features generated in the FCC experiment (FCC6: plain FCC trained on SemScholar, FCC7: includes semantic embeddings from Vecsigrafo).
+**Multimodal Classification Experiments**: We categorize the figures and captions over the SciGraph categories. To do so, we use the visual features generated in the FCC experiment (FCC6: plain FCC trained on SemScholar, FCC7: includes semantic embeddings from Vecsigrafo).
 
 ```
-cat_experiments.py [-h] [-w WEIGHTS] [-t]
+multimodal_classification.py [-h] [-w WEIGHTS] [-t]
 
 optional arguments:
   -h, --help                      show this help message and exit
@@ -58,7 +58,7 @@ optional arguments:
 **TQA Experiments**: We reproduce the baselines for the TQA challenge and extend it with the FCC visual features and pre-trained semantic embeddings from Vecsigrafo. Question types include multiple choice non-diagram questions and multiple choice diagram questions. Model types include text only, diagram only, Cross (using the visual FCC features) and CrossVecsi (adding Vecsigrafo to represent the TQA words).
 
 ```
-tqa_experiments.py [-h] -q QUESTIONTYPE -m MODELTYPE
+tqa.py [-h] -q QUESTIONTYPE -m MODELTYPE
 
 optional arguments:
   -h, --help                                      show this help message and exit
@@ -69,4 +69,4 @@ required arguments:
 ```
 
 ## Qualitative images:
-In the **_qualitative_** folder you can find the images of our qualitative analysis.
+In the **qualitative_analysis** folder you can find the images of our qualitative analysis.
