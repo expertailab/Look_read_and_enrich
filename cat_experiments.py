@@ -1,7 +1,7 @@
 import sys
 import argparse
-from look_read_and_enrich.lre_scripts.cat_cap_aux import CaptionCorpus, CaptionExperiment
-from look_read_and_enrich.lre_scripts.cat_fig_aux import FigureCorpus, FigureExperiment
+from lre_scripts.cat_cap_aux import CaptionCorpus, CaptionExperiment
+from lre_scripts.cat_fig_aux import FigureCorpus, FigureExperiment
 from keras import optimizers
 
 def main(argv):

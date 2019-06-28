@@ -1,4 +1,4 @@
-from look_read_and_enrich.lre_scripts.tqa_aux import Corpus,TQAModel,LossLearningRateScheduler
+from lre_scripts.tqa_aux import Corpus,TQAModel,LossLearningRateScheduler
 from sklearn.model_selection import KFold
 from keras import optimizers
 from keras.callbacks import EarlyStopping

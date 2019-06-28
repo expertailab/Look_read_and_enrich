@@ -1,6 +1,6 @@
 import sys
 import argparse
-from look_read_and_enrich.lre_scripts.cross_aux import Corpus, CrossExperiment
+from lre_scripts.cross_aux import Corpus, CrossExperiment
 from keras import optimizers
 
 def main(argv):
