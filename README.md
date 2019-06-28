@@ -85,6 +85,8 @@ features.
 
 **Text features (heatmaps)**
 Sample caption activation heatmaps. Red is high activation, blue is low.
+
+"The Aliev-Panfilov model with  α = 0.01, ɣ = 0.002, b = 0.15, c = 8, μ1 = 0.2, μ2 = 0.3. The phase portrait depicts trajectories for distinct initial values φ0 and r0 (filled circles) converging to a stable equilibrium point (top). Non-oscillatory normalized time plot of the non-dimensional action potential φ and the recovery variable r (bottom)."
 <img src="./qualitative_analysis/captions/caption_heatmap_1.png" width="2000">
 <img src="./qualitative_analysis/captions/caption_heatmap_2.png" width="2000">
 
