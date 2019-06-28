@@ -23,7 +23,7 @@ To use this code you will need:
 
 ## How to run the experiments:
 
-**1. Execute the script download.py with the materials you want to download:**
+**1. Execute the script download.py to download from [Zenodo](https://zenodo.org/record/3258126) the materials (corpora and weights):**
 
 ```
 python download.py
