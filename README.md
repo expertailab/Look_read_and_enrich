@@ -68,5 +68,5 @@ required arguments:
   -m MODELTYPE, --modelType MODELTYPE             Model Type: Text, Diagram, Cross or CrossVecsi
 ```
 
-## Qualitative images:
-In the **qualitative_analysis** folder you can find the images of our qualitative analysis.
+## Qualitative analysis - Selected features and heatmaps
+The individual figures selected for the analysis in the paper can be found in  the folder **qualitative_analysis** folder.
