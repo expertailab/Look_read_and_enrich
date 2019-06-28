@@ -73,16 +73,16 @@ The individual figures selected for the analysis in the paper can be found in  t
 
 **Visual features**
 Selected visual features. The top row labels the dominant pattern for each feature
-<img src="./architecture diagrams/visual_features.png" width="2000">
+<img src="./qualitative_analysis/figures/visual_features.png" width="2000">
 
 **Visual features (heatmaps)**
-<img src="./architecture diagrams/visual_features_heatmaps.png" width="2000">
+<img src="./qualitative_analysis/figures/visual_features_heatmaps.png" width="2000">
 
 **Text features**
 Selected text features.
-<img src="./architecture diagrams/caption_features.png" width="2000">
+<img src="./qualitative_analysis/captions/caption_features.png" width="2000">
 
 **Text features (heatmaps)**
 Sample caption activation heatmaps. Red is high activation, blue is low.
-<img src="./architecture diagrams/" width="2000">
+<img src="./qualitative_analysis/captions/" width="2000">
 
