@@ -70,3 +70,14 @@ required arguments:
 
 ## Qualitative analysis - Selected features and heatmaps
 The individual figures selected for the analysis in the paper can be found in  the folder **qualitative_analysis** folder.
+
+**Visual features**
+Selected visual features. The top row labels the dominant pattern for each feature
+
+**Visual fetures (heatmaps)**
+
+**Text features**
+Selected text features.
+
+**Text features (heatmaps)**
+Sample caption activation heatmaps. Red is high activation, blue is low.
