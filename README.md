@@ -68,20 +68,22 @@ required arguments:
   -m MODELTYPE, --modelType MODELTYPE             Model Type: Text, Diagram, Cross or CrossVecsi
 ```
 
-## Qualitative analysis FCC task - Selected features and heatmaps
+## Qualitative analysis of the FCC task - Selected features and heatmaps
 The individual figures selected for the analysis in the paper can be found in  the folder **qualitative_analysis** folder.
 
-**Selected visual features**. We pick the features with the most significant activation over the test set and select the figures that
-activate them most. The figure shows a selection of 6 visual features with the 4 figures that activate each feature more significantly. The top row labels the dominant pattern for each feature 
+**Selected visual features**. We pick the features with the most significant activation over the dataset and select the figures that
+activate them most. The figure shows a selection of 6 visual features with the 4 figures that activate each feature more significantly. The top row labels the dominant pattern for each feature. 
 <img src="./qualitative_analysis/figures/visual_features.png" width="2000">
 
-**Visual features (heatmaps)**. The figure below shows the activation heatmaps corresponding to the features above and the figures that activate them more significantly.
+
+**Visual features (heatmaps)**. The figure below shows the activation heatmaps corresponding to the features and figures above.
 <img src="./qualitative_analysis/figures/visual_features_heatmaps.png" width="2000">
 
-**Text features**. Similar to the visual case, we selected the features from the last block of the language subnetwork with the highest
-activation. For visualization purposes, we picked the figures corresponding to the captions that most activate such
+
+**Text features**. Similar to the visual case, we select the features from the last block of the language subnetwork with the most significant activation. For visualization purposes, we show the figures corresponding to the captions that most activate such
 features.
 <img src="./qualitative_analysis/captions/caption_features.png" width="2000">
+
 
 **Text features (heatmaps)**
 Sample caption activation heatmaps. Red is high activation, blue is low.
