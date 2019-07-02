@@ -27,11 +27,10 @@ def main(argv):
     if questionType == "nonDiagramQuestions":
         dout=0.5
         rdout=0.5
-        pareto=False
     else:
         dout=0.0
         rdout=0.0
-        pareto=True
+        
 
 
     json_file = "./jsons/tqa.json"
@@ -42,6 +41,7 @@ def main(argv):
     scheduling = False
     steps_sched = 1
     patience = 2
+    pareto=True
 
     corpus = Corpus(json_file,questionType,modelType, pareto)
     corpus.get_data()
