@@ -94,3 +94,23 @@ Sample caption activation heatmaps. Red is high activation, blue is low.
 "Relative protein levels of ubiquitin-protein conjugates in M. quadriceps femoris of rats fed either a control diet (0 mg carnitine/ kg diet; Control) or a diet supplemented with 1250 mg carnitine/kg diet (Carnitine). (A) A representative immunoblot specific to ubiquitin is shown for three animals per group; immunoblots for the other animals revealed similar results. Reversible staining of nitrocellulose membranes with Ponceau S revealed equal loading of protein. (B) Bars represent data from densitometric analysis and represent means ±SD (n = 6/group); bars are expressed relative to the protein level of the control group (= 1.00). * indicates a significant difference to the control group (P < 0.05)."
 <img src="./qualitative_analysis/captions/caption_heatmap_2.png" width="2000">
 
+## How to cite
+
+**_Jose Manuel Gomez-Perez and Raul Ortega. 2019. Look, Read and Enrich. Learning from Scientific Figures and their Captions. In Proceedings of the 10th international conference on Knowledge capture (K-CAP ’19), Mayank Kejriwal and Pedro Szekely (Eds.). ACM, New York, NY, USA. DOI: https://doi.org/10.1145/3360901.3364420_**   
+
+@inproceedings{LookReadEnrich19,  
+ author = {Gomez-Perez, Jose Manuel and Ortega, Raul},  
+ title = {Look, Read and Enrich. Learning from Scientific Figures and their Captions},  
+ booktitle = {Proceedings of the 10th International Conference on Knowledge Capture},  
+ series = {K-CAP '19},  
+ year = {2019},  
+ isbn = {978-1-4503-7008-0/19/11},  
+ location = {Marina del Rey, CA, USA},  
+ pages = {},  
+ numpages = {8},  
+ url = {},  
+ doi = {https://doi.org/10.1145/3360901.3364420},  
+ acmid = {},  
+ publisher = {ACM},  
+ address = {New York, NY, USA},  
+ keywords = {scientific figures, figure-caption correspondence, knowledge graphs, transfer learning, multimodal machine comprehension}}  
