@@ -1,6 +1,6 @@
 # Look, Read and Enrich
 
-## Materials to reproduce the experiments and results in: Look, Read and Enrich - Learning from Scientific Figures and their Captions.
+## Materials to reproduce the experiments and results in: **[Look, Read and Enrich - Learning from Scientific Figures and their Captions.](https://arxiv.org/abs/1909.09070)**
 
 Automatically interpreting scientific figures is particularly hard compared to natural images. However, there is a valuable source of information in scientific literature that until now has remained untapped: the correspondence between a figure and its caption. In the associated paper we present a Figure-Caption Correspondence (FCC) learning task that results from investigating what can be learnt by looking at a large number of figures and reading their captions. In this repository we provide the necessary code and data to reproduce the experiments related to such task that are presented in the paper.
 
